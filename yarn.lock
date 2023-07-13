@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@dqbd/tiktoken@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@dqbd/tiktoken/-/tiktoken-1.0.7.tgz#612871cf91eba5599c804f100c573aa4d8596f57"
+  integrity sha512-bhR5k5W+8GLzysjk8zTMVygQZsgvf7W1F0IlL4ZQ5ugjo5rCyiwGM5d8DYriXspytfu98tv59niang3/T+FoDw==
+
 "@esbuild/android-arm64@0.18.11":
   version "0.18.11"
   resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.18.11.tgz#fa6f0cc7105367cb79cc0a8bf32bf50cb1673e45"
@@ -111,6 +116,77 @@
   version "0.18.11"
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.18.11.tgz#6526c7e1b40d5b9f0a222c6b767c22f6fb97aa57"
   integrity sha512-rQI4cjLHd2hGsM1LqgDI7oOCYbQ6IBOVsX9ejuRMSze0GqXUG2ekwiKkiBU1pRGSeCqFFHxTrcEydB2Hyoz9CA==
+
+"@rollup/plugin-virtual@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-virtual/-/plugin-virtual-3.0.1.tgz#cea7e489481cc0ca91516c047f8c53c1cfb1adf6"
+  integrity sha512-fK8O0IL5+q+GrsMLuACVNk2x21g3yaw+sG2qn16SnUd3IlBsQyvWxLMGHmCmXRMecPjGRSZ/1LmZB4rjQm68og==
+
+"@swc/core-darwin-arm64@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.3.69.tgz#e22032471244ec80c22bee8efc2100e456bb9488"
+  integrity sha512-IjZTf12zIPWkV3D7toaLDoJPSkLhQ4fDH8G6/yCJUI27cBFOI3L8LXqptYmISoN5yYdrcnNpdqdapD09JPuNJg==
+
+"@swc/core-darwin-x64@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.3.69.tgz#4c2034ba409b9e061b9e8ad56a762b8bb7815f18"
+  integrity sha512-/wBO0Rn5oS5dJI/L9kJRkPAdksVwl5H9nleW/NM3A40N98VV8T7h/i1nO051mxIjq0R6qXVGOWFbBoLrPYucJg==
+
+"@swc/core-linux-arm-gnueabihf@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.3.69.tgz#3d89053b6de2fd8553ce5c5808251246f2870e1e"
+  integrity sha512-NShCjMv6Xn8ckMKBRqmprXvUF14+jXY0TcNKXwjYErzoIUFOnG72M36HxT4QEeAtKZ4Eg4CZFE4zlJ27fDp1gg==
+
+"@swc/core-linux-arm64-gnu@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.3.69.tgz#df12d3befc5e86555ee561202dc9c279d8865bf3"
+  integrity sha512-VRPOJj4idopSHIj1bOVXX0SgaB18R8yZNunb7eXS5ZcjVxAcdvqyIz3RdQX1zaJFCGzcdPLzBRP32DZWWGE8Ng==
+
+"@swc/core-linux-arm64-musl@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.3.69.tgz#8372222a3298fdd0bd18da564a3009614a6c0920"
+  integrity sha512-QxeSiZqo5x1X8vq8oUWLibq+IZJcxl9vy0sLUmzdjF2b/Z+qxKP3gutxnb2tzJaHqPVBbEZaILERIGy1qWdumQ==
+
+"@swc/core-linux-x64-gnu@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.3.69.tgz#6879057d28f261b051fac52daca6c256f3a7fb7d"
+  integrity sha512-b+DUlVxYox3BwD3PyTwhLvqtu6TYZtW+S6O0FnttH11o4skHN0XyJ/cUZSI0X2biSmfDsizRDUt1PWPFM+F7SA==
+
+"@swc/core-linux-x64-musl@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.3.69.tgz#bf4f9a74156524211472bb713d34f0bb7265669f"
+  integrity sha512-QXjsI+f8n9XPZHUvmGgkABpzN4M9kdSbhqBOZmv3o0AsDGNCA4uVowQqgZoPFAqlJTpwHeDmrv5sQ13HN+LOGw==
+
+"@swc/core-win32-arm64-msvc@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.3.69.tgz#8242e4a406d11f0e078da39cf9962695e6b73d2d"
+  integrity sha512-wn7A8Ws1fyviuCUB2Vg6IotiZeuqiO1Mz3d+YDae2EYyNpj1kNHvjBip8GHkfGzZG+jVrvG6NHsDo0KO/pGb8A==
+
+"@swc/core-win32-ia32-msvc@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.3.69.tgz#68dbd41e200e5db71aa6644d793acff3607862f0"
+  integrity sha512-LsFBXtXqxEcVaaOGEZ9X3qdMzobVoJqKv8DnksuDsWcBk+9WCeTz2u/iB+7yZ2HGuPXkCqTRqhFo6FX9aC00kQ==
+
+"@swc/core-win32-x64-msvc@1.3.69":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.3.69.tgz#304e1050d59bae21215a15839b05668d48a92837"
+  integrity sha512-ieBscU0gUgKjaseFI07tAaGqHvKyweNknPeSYEZOasVZUczhD6fK2GRnVREhv2RB2qdKC/VGFBsgRDMgzq1VLw==
+
+"@swc/core@^1.3.10":
+  version "1.3.69"
+  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.3.69.tgz#b4a41e84de11832c233fbe714c6e412d8404bab0"
+  integrity sha512-Khc/DE9D5+2tYTHgAIp5DZARbs8kldWg3b0Jp6l8FQLjelcLFmlQWSwKhVZrgv4oIbgZydIp8jInsvTalMHqnQ==
+  optionalDependencies:
+    "@swc/core-darwin-arm64" "1.3.69"
+    "@swc/core-darwin-x64" "1.3.69"
+    "@swc/core-linux-arm-gnueabihf" "1.3.69"
+    "@swc/core-linux-arm64-gnu" "1.3.69"
+    "@swc/core-linux-arm64-musl" "1.3.69"
+    "@swc/core-linux-x64-gnu" "1.3.69"
+    "@swc/core-linux-x64-musl" "1.3.69"
+    "@swc/core-win32-arm64-msvc" "1.3.69"
+    "@swc/core-win32-ia32-msvc" "1.3.69"
+    "@swc/core-win32-x64-msvc" "1.3.69"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -238,6 +314,25 @@ typescript@^5.0.2:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.1.6.tgz#02f8ac202b6dad2c0dd5e0913745b47a37998274"
   integrity sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
+
+vite-plugin-top-level-await@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-top-level-await/-/vite-plugin-top-level-await-1.3.1.tgz#7e7293be01489b508692627529c0a3b3218a23a3"
+  integrity sha512-55M1h4NAwkrpxPNOJIBzKZFihqLUzIgnElLSmPNPMR2Fn9+JHKaNg3sVX1Fq+VgvuBksQYxiD3OnwQAUu7kaPQ==
+  dependencies:
+    "@rollup/plugin-virtual" "^3.0.1"
+    "@swc/core" "^1.3.10"
+    uuid "^9.0.0"
+
+vite-plugin-wasm@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-wasm/-/vite-plugin-wasm-3.2.2.tgz#7a66fef27733a0dea9b2b14f942a6389a2523f7c"
+  integrity sha512-cdbBUNR850AEoMd5nvLmnyeq63CSfoP1ctD/L2vLk/5+wsgAPlAVAzUK5nGKWO/jtehNlrSSHLteN+gFQw7VOA==
 
 vite@^4.4.0:
   version "4.4.3"

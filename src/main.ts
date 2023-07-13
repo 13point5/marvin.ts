@@ -1,29 +1,13 @@
 import { z } from "zod";
-import { AIModel } from "./marvin";
+import { AIClassifier } from "./examples/ai_classifier";
 
-const locationSchema = z.object({
-  city: z.string(),
-  state: z.string({
-    description: "The two-letter state abbreviation",
-  }),
-});
+enum Operation {
+  Add = "add",
+  Subtract = "subtract",
+  Divide = 1,
+}
 
-// const Location = AIModel(locationSchema);
+const AIOperation = AIClassifier(z.nativeEnum(Operation));
 
-// const result = await Location("The tech startup hub of India");
-// console.log(result);
-
-// Let's see if we get an error if we have the state as an enum without KA
-const locationSchema2 = z.object({
-  city: z.string(),
-  state: z.enum(
-    ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "MA"],
-    {
-      description: "The two-letter state abbreviation",
-    }
-  ),
-});
-
-const Location2 = AIModel(locationSchema2);
-const result2 = await Location2("The tech startup hub of India");
-console.log(result2);
+const result = await AIOperation("I want to subtract 5 from 3");
+console.log("result", result);
