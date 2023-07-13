@@ -8,8 +8,10 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-export const AIModel = (schema: z.ZodType) => {
-  return async (query: string) => {
+export const AIModel = <T>(
+  schema: z.ZodType<T>
+): ((query: string) => Promise<T>) => {
+  return async (query: string): Promise<T> => {
     const chatCompletion = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
       messages: [
@@ -29,6 +31,7 @@ export const AIModel = (schema: z.ZodType) => {
         },
       ],
     });
+
     const response = chatCompletion.data.choices[0].message;
 
     if (
