@@ -44,10 +44,6 @@ export const AIModel = <T>(
       throw new Error("Could not model the query");
     }
 
-    const res = schema.safeParse(JSON.parse(response.function_call.arguments));
-
-    if (!res.success) throw new Error("Could not model the query");
-
-    return res.data;
+    return schema.parse(JSON.parse(response.function_call.arguments));
   };
 };
